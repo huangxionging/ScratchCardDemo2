@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F29985FA1B20235900106A7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29985F91B20235900106A7F /* AppDelegate.swift */; };
+		F29985FD1B20235900106A7F /* ScratchCardDemo2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F29985FB1B20235900106A7F /* ScratchCardDemo2.xcdatamodeld */; };
+		F29985FF1B20235900106A7F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29985FE1B20235900106A7F /* ViewController.swift */; };
+		F29986021B20235900106A7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F29986001B20235900106A7F /* Main.storyboard */; };
+		F29986041B20235900106A7F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F29986031B20235900106A7F /* Images.xcassets */; };
+		F29986071B20235900106A7F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F29986051B20235900106A7F /* LaunchScreen.xib */; };
+		F29986131B20235900106A7F /* ScratchCardDemo2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29986121B20235900106A7F /* ScratchCardDemo2Tests.swift */; };
+		F299861D1B20251200106A7F /* ScratchCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F299861C1B20251200106A7F /* ScratchCardView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F299860D1B20235900106A7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F29985EC1B20235900106A7F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F29985F31B20235900106A7F;
+			remoteInfo = ScratchCardDemo2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F29985F41B20235900106A7F /* ScratchCardDemo2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScratchCardDemo2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F29985F81B20235900106A7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F29985F91B20235900106A7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F29985FC1B20235900106A7F /* ScratchCardDemo2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ScratchCardDemo2.xcdatamodel; sourceTree = "<group>"; };
+		F29985FE1B20235900106A7F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F29986011B20235900106A7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F29986031B20235900106A7F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F29986061B20235900106A7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F299860C1B20235900106A7F /* ScratchCardDemo2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScratchCardDemo2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F29986111B20235900106A7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F29986121B20235900106A7F /* ScratchCardDemo2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScratchCardDemo2Tests.swift; sourceTree = "<group>"; };
+		F299861C1B20251200106A7F /* ScratchCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScratchCardView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F29985F11B20235900106A7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F29986091B20235900106A7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F29985EB1B20235900106A7F = {
+			isa = PBXGroup;
+			children = (
+				F29985F61B20235900106A7F /* ScratchCardDemo2 */,
+				F299860F1B20235900106A7F /* ScratchCardDemo2Tests */,
+				F29985F51B20235900106A7F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F29985F51B20235900106A7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F29985F41B20235900106A7F /* ScratchCardDemo2.app */,
+				F299860C1B20235900106A7F /* ScratchCardDemo2Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F29985F61B20235900106A7F /* ScratchCardDemo2 */ = {
+			isa = PBXGroup;
+			children = (
+				F29985F91B20235900106A7F /* AppDelegate.swift */,
+				F29985FE1B20235900106A7F /* ViewController.swift */,
+				F299861C1B20251200106A7F /* ScratchCardView.swift */,
+				F29986001B20235900106A7F /* Main.storyboard */,
+				F29986031B20235900106A7F /* Images.xcassets */,
+				F29986051B20235900106A7F /* LaunchScreen.xib */,
+				F29985FB1B20235900106A7F /* ScratchCardDemo2.xcdatamodeld */,
+				F29985F71B20235900106A7F /* Supporting Files */,
+			);
+			path = ScratchCardDemo2;
+			sourceTree = "<group>";
+		};
+		F29985F71B20235900106A7F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F29985F81B20235900106A7F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F299860F1B20235900106A7F /* ScratchCardDemo2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F29986121B20235900106A7F /* ScratchCardDemo2Tests.swift */,
+				F29986101B20235900106A7F /* Supporting Files */,
+			);
+			path = ScratchCardDemo2Tests;
+			sourceTree = "<group>";
+		};
+		F29986101B20235900106A7F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F29986111B20235900106A7F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F29985F31B20235900106A7F /* ScratchCardDemo2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F29986161B20235900106A7F /* Build configuration list for PBXNativeTarget "ScratchCardDemo2" */;
+			buildPhases = (
+				F29985F01B20235900106A7F /* Sources */,
+				F29985F11B20235900106A7F /* Frameworks */,
+				F29985F21B20235900106A7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScratchCardDemo2;
+			productName = ScratchCardDemo2;
+			productReference = F29985F41B20235900106A7F /* ScratchCardDemo2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F299860B1B20235900106A7F /* ScratchCardDemo2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F29986191B20235900106A7F /* Build configuration list for PBXNativeTarget "ScratchCardDemo2Tests" */;
+			buildPhases = (
+				F29986081B20235900106A7F /* Sources */,
+				F29986091B20235900106A7F /* Frameworks */,
+				F299860A1B20235900106A7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F299860E1B20235900106A7F /* PBXTargetDependency */,
+			);
+			name = ScratchCardDemo2Tests;
+			productName = ScratchCardDemo2Tests;
+			productReference = F299860C1B20235900106A7F /* ScratchCardDemo2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F29985EC1B20235900106A7F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = New_Life;
+				TargetAttributes = {
+					F29985F31B20235900106A7F = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					F299860B1B20235900106A7F = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = F29985F31B20235900106A7F;
+					};
+				};
+			};
+			buildConfigurationList = F29985EF1B20235900106A7F /* Build configuration list for PBXProject "ScratchCardDemo2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F29985EB1B20235900106A7F;
+			productRefGroup = F29985F51B20235900106A7F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F29985F31B20235900106A7F /* ScratchCardDemo2 */,
+				F299860B1B20235900106A7F /* ScratchCardDemo2Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F29985F21B20235900106A7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F29986021B20235900106A7F /* Main.storyboard in Resources */,
+				F29986071B20235900106A7F /* LaunchScreen.xib in Resources */,
+				F29986041B20235900106A7F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F299860A1B20235900106A7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F29985F01B20235900106A7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F29985FF1B20235900106A7F /* ViewController.swift in Sources */,
+				F299861D1B20251200106A7F /* ScratchCardView.swift in Sources */,
+				F29985FD1B20235900106A7F /* ScratchCardDemo2.xcdatamodeld in Sources */,
+				F29985FA1B20235900106A7F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F29986081B20235900106A7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F29986131B20235900106A7F /* ScratchCardDemo2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F299860E1B20235900106A7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F29985F31B20235900106A7F /* ScratchCardDemo2 */;
+			targetProxy = F299860D1B20235900106A7F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F29986001B20235900106A7F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F29986011B20235900106A7F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F29986051B20235900106A7F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F29986061B20235900106A7F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F29986141B20235900106A7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F29986151B20235900106A7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F29986171B20235900106A7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ScratchCardDemo2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F29986181B20235900106A7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ScratchCardDemo2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F299861A1B20235900106A7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ScratchCardDemo2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScratchCardDemo2.app/ScratchCardDemo2";
+			};
+			name = Debug;
+		};
+		F299861B1B20235900106A7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ScratchCardDemo2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScratchCardDemo2.app/ScratchCardDemo2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F29985EF1B20235900106A7F /* Build configuration list for PBXProject "ScratchCardDemo2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F29986141B20235900106A7F /* Debug */,
+				F29986151B20235900106A7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F29986161B20235900106A7F /* Build configuration list for PBXNativeTarget "ScratchCardDemo2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F29986171B20235900106A7F /* Debug */,
+				F29986181B20235900106A7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F29986191B20235900106A7F /* Build configuration list for PBXNativeTarget "ScratchCardDemo2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F299861A1B20235900106A7F /* Debug */,
+				F299861B1B20235900106A7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F29985FB1B20235900106A7F /* ScratchCardDemo2.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F29985FC1B20235900106A7F /* ScratchCardDemo2.xcdatamodel */,
+			);
+			currentVersion = F29985FC1B20235900106A7F /* ScratchCardDemo2.xcdatamodel */;
+			path = ScratchCardDemo2.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F29985EC1B20235900106A7F /* Project object */;
+}
