@@ -12,16 +12,19 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var myLanel: UILabel!
     
-  //  var scratchCardView:ScratchCardView;
+    var scratchCardView:ScratchCardView?
     
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-    myLanel.text = "sss";
-        myLanel.frame = CGRectMake(0, 10, 10, 10);
-        myLanel.backgroundColor = UIColor.grayColor();
+        myLanel.text = "sss";
+        myLanel.frame = CGRectMake(0, 10, 10, 10)
+        myLanel.backgroundColor = UIColor.grayColor()
+        self.scratchCardView = ScratchCardView(frame: CGRectMake(0, 100, 400, 235))
+        self.view.addSubview(self.scratchCardView!)
+        self.scratchCardView?.backgroundColor = UIColor.yellowColor()
     }
 
     override func didReceiveMemoryWarning() {

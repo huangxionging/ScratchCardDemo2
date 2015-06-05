@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F279043E1B2132B60053A3D3 /* user_back_01.png in Resources */ = {isa = PBXBuildFile; fileRef = F27904391B2132B60053A3D3 /* user_back_01.png */; };
+		F279043F1B2132B60053A3D3 /* user_back_02.png in Resources */ = {isa = PBXBuildFile; fileRef = F279043A1B2132B60053A3D3 /* user_back_02.png */; };
+		F27904401B2132B60053A3D3 /* user_back_03.png in Resources */ = {isa = PBXBuildFile; fileRef = F279043B1B2132B60053A3D3 /* user_back_03.png */; };
+		F27904411B2132B60053A3D3 /* user_back_04.png in Resources */ = {isa = PBXBuildFile; fileRef = F279043C1B2132B60053A3D3 /* user_back_04.png */; };
+		F27904421B2132B60053A3D3 /* user_back_05.png in Resources */ = {isa = PBXBuildFile; fileRef = F279043D1B2132B60053A3D3 /* user_back_05.png */; };
 		F29985FA1B20235900106A7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29985F91B20235900106A7F /* AppDelegate.swift */; };
 		F29985FD1B20235900106A7F /* ScratchCardDemo2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F29985FB1B20235900106A7F /* ScratchCardDemo2.xcdatamodeld */; };
 		F29985FF1B20235900106A7F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29985FE1B20235900106A7F /* ViewController.swift */; };
@@ -28,6 +33,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F27904391B2132B60053A3D3 /* user_back_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user_back_01.png; sourceTree = "<group>"; };
+		F279043A1B2132B60053A3D3 /* user_back_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user_back_02.png; sourceTree = "<group>"; };
+		F279043B1B2132B60053A3D3 /* user_back_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user_back_03.png; sourceTree = "<group>"; };
+		F279043C1B2132B60053A3D3 /* user_back_04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user_back_04.png; sourceTree = "<group>"; };
+		F279043D1B2132B60053A3D3 /* user_back_05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user_back_05.png; sourceTree = "<group>"; };
 		F29985F41B20235900106A7F /* ScratchCardDemo2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScratchCardDemo2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F29985F81B20235900106A7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F29985F91B20235900106A7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -85,6 +95,11 @@
 				F29985FE1B20235900106A7F /* ViewController.swift */,
 				F299861C1B20251200106A7F /* ScratchCardView.swift */,
 				F29986001B20235900106A7F /* Main.storyboard */,
+				F27904391B2132B60053A3D3 /* user_back_01.png */,
+				F279043A1B2132B60053A3D3 /* user_back_02.png */,
+				F279043B1B2132B60053A3D3 /* user_back_03.png */,
+				F279043C1B2132B60053A3D3 /* user_back_04.png */,
+				F279043D1B2132B60053A3D3 /* user_back_05.png */,
 				F29986031B20235900106A7F /* Images.xcassets */,
 				F29986051B20235900106A7F /* LaunchScreen.xib */,
 				F29985FB1B20235900106A7F /* ScratchCardDemo2.xcdatamodeld */,
@@ -198,9 +213,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F27904411B2132B60053A3D3 /* user_back_04.png in Resources */,
+				F27904401B2132B60053A3D3 /* user_back_03.png in Resources */,
 				F29986021B20235900106A7F /* Main.storyboard in Resources */,
 				F29986071B20235900106A7F /* LaunchScreen.xib in Resources */,
+				F279043E1B2132B60053A3D3 /* user_back_01.png in Resources */,
 				F29986041B20235900106A7F /* Images.xcassets in Resources */,
+				F27904421B2132B60053A3D3 /* user_back_05.png in Resources */,
+				F279043F1B2132B60053A3D3 /* user_back_02.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +439,7 @@
 				F29986181B20235900106A7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F29986191B20235900106A7F /* Build configuration list for PBXNativeTarget "ScratchCardDemo2Tests" */ = {
 			isa = XCConfigurationList;
@@ -427,6 +448,7 @@
 				F299861B1B20235900106A7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
