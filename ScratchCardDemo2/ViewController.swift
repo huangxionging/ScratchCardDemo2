@@ -23,8 +23,11 @@ class ViewController: UIViewController {
         myLanel.frame = CGRectMake(0, 10, 10, 10)
         myLanel.backgroundColor = UIColor.grayColor()
         self.scratchCardView = ScratchCardView(frame: CGRectMake(0, 100, 400, 235))
+      //  self.scratchCardView!.frame = CGRectMake(0, 100, 400, 235)
         self.view.addSubview(self.scratchCardView!)
         self.scratchCardView?.backgroundColor = UIColor.yellowColor()
+        
+        self.scratchCardView?.setNeedsDisplay()
     }
 
     override func didReceiveMemoryWarning() {
